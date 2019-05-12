@@ -1,0 +1,20 @@
+.navbar {
+    flex-flow: row !important;
+    display: block !important;
+    background-image: url("https://media1.giphy.com/media/3og0IAY8yoqClDFD1u/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.collapse {
+    margin-top: 25px;
+}
+
+#navbarSupportedContent {
+    float: right !important;
+}
