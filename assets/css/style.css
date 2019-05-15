@@ -43,6 +43,10 @@
 }
 
 /* Jumbotron */
+p {
+    font-family: 'Volkhov', serif;
+    font-size: 22px;
+}
 .aboutMeContainer {
     display: flex;
     justify-content: center;
