@@ -3,18 +3,43 @@
     display: block !important;
     background-image: url("https://media1.giphy.com/media/3og0IAY8yoqClDFD1u/giphy.gif");
     background-repeat: no-repeat;
-    background-size: 1500px 1000px;
+    background-size: 1540px 1000px;
+    font-size: 25px;
+}
 
+.navbar-nav .nav-link {
+    font-weight: 900;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .navbar img {
-    height: 100px;
+    height: 130px;
+    width: 175px;
 }
 
 .collapse {
-    margin-top: 25px;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item {
+    margin-right: 20px;
 }
 
 #navbarSupportedContent {
     float: right !important;
+}
+
+#imageMe {
+    height: 250px;
+    width: 190px;
+    float: left;
+    margin-right: 20px;
 }
