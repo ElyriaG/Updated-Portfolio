@@ -1,3 +1,4 @@
+/* Navbar */
 .navbar {
     flex-flow: row !important;
     display: block !important;
@@ -13,6 +14,10 @@
     -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+}
+
+.mr-auto {
+    margin-right: 30px;
 }
 
 .navbar img {
@@ -37,9 +42,62 @@
     float: right !important;
 }
 
+/* Jumbotron */
+.aboutMeContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    width: 1300px;
+}
+
+.display-4 {
+    color: gray;
+    font-family: 'Cinzel', serif;
+}
+
 #imageMe {
     height: 250px;
     width: 190px;
     float: left;
     margin-right: 20px;
+}
+
+/* jumbotron button */
+.btn {
+    font-size: 5mm;
+    font-weight: 600;
+}
+
+.btn-danger {
+    background-color: rgba(173, 216, 230, 0.726);
+    border: 2px solid rgb(80, 102, 165) !important;
+    border-radius: 8px;
+    color: rgb(43, 42, 42);
+    box-shadow: 0 8px 16px 0 rgba(58, 45, 45, 0.2);
+}
+
+.btn-danger:hover {
+    background-color: rgb(80, 102, 165);
+    border: 2px solid rgba(173, 216, 230, 0.726) !important;
+    color: white;
+}
+
+/* Portfolio Page */
+
+.imagesOne, .imagesTwo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.imagesOne img, .imagesTwo img {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(128, 122, 122);
+    box-shadow: 12px 12px 9px 2px rgba(80, 51, 129, 0.2);
 }
