@@ -54,6 +54,7 @@ p {
 
 .jumbotron {
     width: 1300px;
+    background-color: rgb(193, 205, 212);
 }
 
 .display-4 {
